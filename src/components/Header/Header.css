@@ -1,0 +1,8 @@
+.header-wrapper{
+    border-bottom: 1px solid #ccc;
+}
+
+.header-inner-wrapper{
+    width: 80%;
+    margin: 0 auto;
+}

@@ -1,0 +1,62 @@
+.sync-img{
+  width: 50px;
+  padding: 20px;
+}
+
+.jobsync-inner-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+}
+
+.filter-dropdown{
+  width: 50%;
+}
+
+.css-g1d714-ValueContainer{
+  height: 30px;
+}
+
+.default-btn{
+  padding: 5px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.jobsync-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-wrapper{
+  width: 50%;
+}
+
+.filter-wrapper-inner{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.border-bottom{
+  border-bottom: 1px solid #ccc;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.jobsync-inner-wrapper{
+  position: relative;
+}
+
+.sync-text{
+    position: absolute;
+    bottom: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}

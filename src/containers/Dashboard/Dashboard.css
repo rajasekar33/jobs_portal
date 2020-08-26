@@ -1,0 +1,92 @@
+.dashboard-wrapper{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.dashboard-filter-section{
+    width: 30%;
+}
+
+.dashboard-job-section{
+    width: 50%;
+}
+
+.clear-margin{
+    margin: 0px;
+}
+
+.card-left-section{
+    width: 80%;
+}
+
+.card-right-section{
+    width: 20%;
+}
+
+.job-card-wrapper{
+    padding: 10px 20px;
+    display: flex;
+    margin: 10px;
+    webkit-box-shadow: 2px 2px 8px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 8px -4px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 8px -4px rgba(0,0,0,0.75);
+}
+
+.job-description-wrapper{
+    display: flex;
+    height: 50px;
+}
+
+.job-description{
+    width: 80%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+.job-description strong{
+    font-weight: unset;
+}
+
+.card-left-section span{
+    font-size: 12px;
+    color: #959595;
+}
+
+@media screen and (max-width: 768px) {
+    .card-left-section {
+        width: 70%;
+    }
+    .dashboard-job-section {
+        width: 100%;
+    }
+    .dashboard-wrapper {
+       
+        width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 768px)  {
+    .card-left-section {
+        width: 70%;
+    }
+    .dashboard-job-section {
+        width: 100%;
+    }
+    .dashboard-wrapper {
+       
+        width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 768px) and (min-width: 1100px) {
+    .dashboard-wrapper {
+        width: 90%;
+    }
+
+    .dashboard-job-section {
+        width: 60%;
+    }
+  }
